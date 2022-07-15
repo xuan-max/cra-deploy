@@ -3,7 +3,8 @@ services:
   domain:
     build:
       context: .
-      dockerfile: oss.Dockerfile
+      # dockerfile: oss.Dockerfile
+      dockerfile: router.Dockerfile
       args:
         # 通过环境变量配置的 ACCESS_KEY_ID 和 ACCESS_KEY_SECRET 经常会不见了(暂未找到原因，因此这里直接写进去了)
         # 之前的配置过程： export ACCESS_KEY_ID=LTAIxxx
