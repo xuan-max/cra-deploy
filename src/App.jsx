@@ -8,7 +8,7 @@ function Home() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>当前在 Home 页面</h1>
-        <p>Test Github Action CICD.</p>
+        <p>Github Action CICD.</p>
         <Link to="/about" className="App-link">About</Link>
       </header>
     </div>
